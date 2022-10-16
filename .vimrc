@@ -10,6 +10,7 @@ if &loadplugins
   packadd! vim-fzf
   packadd! vim-fzf-main
   packadd! vim-commentary
+  packadd! vim-dispatch
  endif
 endif
 

@@ -23,3 +23,6 @@
 [submodule ".vim/pack/bundle/opt/vim-commentary"]
 	path = .vim/pack/bundle/opt/vim-commentary
 	url = https://github.com/tpope/vim-commentary
+[submodule ".vim/pack/bundle/opt/vim-dispatch"]
+	path = .vim/pack/bundle/opt/vim-dispatch
+	url = https://github.com/tpope/vim-dispatch
