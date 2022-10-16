@@ -4,6 +4,8 @@ if &loadplugins
  if has('packages')
   packadd! vim-fugitive
   packadd! vim-lsc
+  packadd! vim-floaterm
+  packadd! vim-airline
  endif
 endif
 

@@ -5,3 +5,9 @@
 [submodule ".vim/pack/bundle/opt/vim-fugitive"]
 	path = .vim/pack/bundle/opt/vim-fugitive
 	url = https://tpope.io/vim/fugitive.git
+[submodule ".vim/pack/bundle/opt/vim-floaterm"]
+	path = .vim/pack/bundle/opt/vim-floaterm
+	url = https://github.com/voldikss/vim-floaterm
+[submodule ".vim/pack/bundle/opt/vim-airline"]
+	path = .vim/pack/bundle/opt/vim-airline
+	url = https://github.com/vim-airline/vim-airline
