@@ -14,3 +14,9 @@
 [submodule ".vim/pack/bundle/opt/vim-nerdtree"]
 	path = .vim/pack/bundle/opt/vim-nerdtree
 	url = https://github.com/preservim/nerdtree
+[submodule ".vim/pack/bundle/opt/vim-fzf"]
+	path = .vim/pack/bundle/opt/vim-fzf
+	url = https://github.com/junegunn/fzf.vim
+[submodule ".vim/pack/bundle/opt/vim-fzf-main"]
+	path = .vim/pack/bundle/opt/vim-fzf-main
+	url = https://github.com/junegunn/fzf
