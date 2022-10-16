@@ -6,6 +6,7 @@ if &loadplugins
   packadd! vim-lsc
   packadd! vim-floaterm
   packadd! vim-airline
+  packadd! vim-nerdtree
  endif
 endif
 
@@ -45,4 +46,10 @@ let g:lsc_auto_map = {
     \ 'SignatureHelp': 'gm',
     \ 'Completion': 'completefunc',
     \}
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
