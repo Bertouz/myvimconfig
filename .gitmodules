@@ -1,3 +1,7 @@
-[submodule ".vim/pack/tpope/fugitive"]
-	path = .vim/pack/tpope/fugitive
+
+[submodule ".vim/pack/bundle/opt/vim-lsc"]
+	path = .vim/pack/bundle/opt/vim-lsc
+	url = https://github.com/natebosch/vim-lsc
+[submodule ".vim/pack/bundle/opt/vim-fugitive"]
+	path = .vim/pack/bundle/opt/vim-fugitive
 	url = https://tpope.io/vim/fugitive.git

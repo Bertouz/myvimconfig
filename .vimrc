@@ -2,6 +2,7 @@
 
 if &loadplugins
  if has('packages')
-  packadd! fugitives
+  packadd! vim-fugitive
+  packadd! vim-lsc
  endif
 endif
