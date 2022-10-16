@@ -20,3 +20,6 @@
 [submodule ".vim/pack/bundle/opt/vim-fzf-main"]
 	path = .vim/pack/bundle/opt/vim-fzf-main
 	url = https://github.com/junegunn/fzf
+[submodule ".vim/pack/bundle/opt/vim-commentary"]
+	path = .vim/pack/bundle/opt/vim-commentary
+	url = https://github.com/tpope/vim-commentary

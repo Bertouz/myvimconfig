@@ -9,6 +9,7 @@ if &loadplugins
   packadd! vim-nerdtree
   packadd! vim-fzf
   packadd! vim-fzf-main
+  packadd! vim-commentary
  endif
 endif
 
