@@ -18,9 +18,12 @@ install_vim_dir = path.join(install_prefix, base_vim_dir)
 install_vim_rc  = path.join(install_prefix, base_vim_rc)
 
 print("-- Installing myvimconfig...")
-print(f"  -- Installing {src_vim_rc} to {install_vim_rc}")
+print(f"  -- Installing {src_vim_rc} to {install_vim_rc}.")
 shutil.copyfile(src_vim_rc, install_vim_rc)
-print(f"  -- Installing {src_vim_dir} to {install_vim_dir}")
+if path.exists(install_vim_dir):
+    print(f"  -- The directory {install_vim_dir} already exist, we remove it.")
+    shutil.rmtree(install_vim_dir)
+print(f"  -- Installing {src_vim_dir} to {install_vim_dir}.")
 shutil.copytree(src_vim_dir, install_vim_dir)
-print(f"-- Done")
+print(f"-- Done.")
 

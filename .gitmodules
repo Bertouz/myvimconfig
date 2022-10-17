@@ -29,3 +29,9 @@
 [submodule ".vim/pack/bundle/opt/vim-gitgutter"]
 	path = .vim/pack/bundle/opt/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
+[submodule ".vim/pack/bundle/opt/vim-gruvbox"]
+	path = .vim/pack/bundle/opt/vim-gruvbox
+	url = https://github.com/morhetz/gruvbox
+[submodule ".vim/pack/bundle/opt/vim-bufexplorer"]
+	path = .vim/pack/bundle/opt/vim-bufexplorer
+	url = https://github.com/jlanzarotta/bufexplorer
