@@ -11,6 +11,7 @@ if &loadplugins
   packadd! vim-fzf-main
   packadd! vim-commentary
   packadd! vim-dispatch
+  packadd! vim-gitgutter
  endif
 endif
 
@@ -66,3 +67,6 @@ omap <leader><tab> <plug>(fzf-maps-o)
 imap <c-x><c-k> <plug>(fzf-complete-word)
 imap <c-x><c-f> <plug>(fzf-complete-path)
 imap <c-x><c-l> <plug>(fzf-complete-line)
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set updatetime=100

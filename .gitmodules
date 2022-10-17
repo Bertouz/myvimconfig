@@ -26,3 +26,6 @@
 [submodule ".vim/pack/bundle/opt/vim-dispatch"]
 	path = .vim/pack/bundle/opt/vim-dispatch
 	url = https://github.com/tpope/vim-dispatch
+[submodule ".vim/pack/bundle/opt/vim-gitgutter"]
+	path = .vim/pack/bundle/opt/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter

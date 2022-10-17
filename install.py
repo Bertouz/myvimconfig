@@ -1,3 +1,4 @@
+#!/bin/python3
 from pathlib import Path
 from os import path
 import shutil
