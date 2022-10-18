@@ -16,6 +16,7 @@ if &loadplugins
   packadd! vim-bufexplorer
   packadd! vim-snippets
   packadd! vim-ultisnips
+  packadd! vim-clang-format
  endif
 endif
 
@@ -96,3 +97,5 @@ endif
 let g:gruvbox_termcolors=16
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+autocmd FileType c ClangFormatAutoEnable
+autocmd FileType cpp ClangFormatAutoEnable

@@ -41,3 +41,6 @@
 [submodule ".vim/pack/bundle/opt/vim-snippets"]
 	path = .vim/pack/bundle/opt/vim-snippets
 	url = https://github.com/honza/vim-snippets
+[submodule ".vim/pack/bundle/opt/vim-clang-format"]
+	path = .vim/pack/bundle/opt/vim-clang-format
+	url = https://github.com/rhysd/vim-clang-format
