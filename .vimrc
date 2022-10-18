@@ -14,6 +14,8 @@ if &loadplugins
   packadd! vim-gitgutter
   packadd! vim-gruvbox
   packadd! vim-bufexplorer
+  packadd! vim-snippets
+  packadd! vim-ultisnips
  endif
 endif
 
@@ -69,6 +71,8 @@ omap <leader><tab> <plug>(fzf-maps-o)
 imap <c-x><c-k> <plug>(fzf-complete-word)
 imap <c-x><c-f> <plug>(fzf-complete-path)
 imap <c-x><c-l> <plug>(fzf-complete-line)
+
+cnoreabbrev fzf Files 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set updatetime=100
@@ -90,3 +94,5 @@ if (empty($TMUX))
   endif
 endif
 let g:gruvbox_termcolors=16
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

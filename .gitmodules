@@ -35,3 +35,9 @@
 [submodule ".vim/pack/bundle/opt/vim-bufexplorer"]
 	path = .vim/pack/bundle/opt/vim-bufexplorer
 	url = https://github.com/jlanzarotta/bufexplorer
+[submodule ".vim/pack/bundle/opt/vim-ultisnips"]
+	path = .vim/pack/bundle/opt/vim-ultisnips
+	url = https://github.com/SirVer/ultisnips
+[submodule ".vim/pack/bundle/opt/vim-snippets"]
+	path = .vim/pack/bundle/opt/vim-snippets
+	url = https://github.com/honza/vim-snippets
